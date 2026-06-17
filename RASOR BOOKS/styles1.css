@@ -1,0 +1,55 @@
+
+body{
+  font-family: Arial,sans-serif;
+  background-color:#f9f9f9;
+  margin: 10;
+  padding: 10;
+}
+
+header{
+  background-color: #ff8902;
+  color:white;
+  text-align: center;
+  padding: 10px 0;
+  border: 5px solid #ff8902;
+  border-radius: 10px;
+}
+
+section{
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h1,h2{
+  color: #333;
+}
+
+.projects, .products {
+display: flex;
+justify-content: space-around;
+gap: 20px;
+}
+.project, .product {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.product:hover img {
+  transform: scale(1.1);
+}
+ .contact{
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
